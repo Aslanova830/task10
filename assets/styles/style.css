@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 150%;
+    
+}
+
+.hero{
+    background: #1B1C31;
+    height: 100vh;
+    padding: 20px;
+}
+
+.menu{ 
+    width: 163vh; 
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #222338;
+    gap: 232px;
+    padding:40px;
+     left: 306px;
+    position: absolute;
+    margin: 30px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+
+.search{
+    color:  #EBEDFA;
+   size: 24px;
+   line-height: 36px;
+   font-weight: 600px;
+}
+
+
+
+form{
+    background: #222338;
+    color: white;
+    display: flex;
+    border-radius: 25px;
+    position: relative;
+}
+
+input{  
+   background-color: rgba(255, 255, 255, 0);
+    border-radius: 2px;
+    border-color:  #EBEDFA ;
+    padding: 14px, 28px, 14px, 28p;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.profil{
+   display: flex;
+    color: white;
+    gap: 24px;
+    height: 120px;
+}
+
+.profil-content
+{
+    padding: 14px, 28px, 14px, 28px;
+    border-style: solid;
+    border-width: medium;
+    max-width: 200px;
+    max-height: 60px;
+}
+
+header{
+    background: #222338;
+    color: white;
+    display: block;
+    width: 244px;
+    height: 972px;
+    top: 100;
+    position: fixed;
+    font-size: 18px;
+}
+
+.navbar{
+    list-style-type: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.content-wrapper{
+    background-color:#1B1C31;
+    gap: 30px;
+    margin: 30px;
+    display: flex;
+    /* height: 50vh; */
+}
+
+.title{
+  
+align-items: center;
+color: white;
+z-index: 10000;}
